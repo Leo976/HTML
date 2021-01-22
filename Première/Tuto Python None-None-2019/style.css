@@ -1,0 +1,159 @@
+body {
+	background-image: url('img/fond.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0;
+}
+@font-face {
+	font-family: bahnschrift;
+	src: url(bahnschrift.ttf);
+}
+@font-face {
+	font-family: AweSomE;
+	src: url(AweSomE.otf);
+}
+#menu {
+	background-color: #1b1818;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+#menu button {
+	background-color: #1b1818;
+	float: right;
+	padding: 25px 30px;
+	border: none;
+	color: white;
+	font: normal normal 23pt bahnschrift;
+}
+#menu button:hover {
+	display: block;
+	background-color: rgb(0,0,0,0.5);
+	cursor: pointer;
+}
+.sous_menu {
+	display: none;
+	background-color: #171313;
+	position: absolute;
+	top: 80px;
+	width: 100%;
+	z-index: 1;
+	color: white;
+	font: normal normal 18pt bahnschrift;
+	text-align: center;
+}
+.sous_menu a {
+	background-color: rgb(0,0,0,0);
+	float: right;
+	padding: 25px 30px;
+}
+.sous_menu a:hover {
+	background-color: #0d0d0d;
+	cursor: pointer;
+}
+#chapitres:hover .sous_menu {
+	display:block;
+}
+#chapitres:hover button {
+	background-color: #ff3333;
+}
+#exercices:hover .sous_menu {
+	display: block;
+}
+#exercices:hover button {
+	background-color: #3399ff;
+}
+#infos:hover button {
+	background-color: #66ff33;
+}
+#head {
+	background-color: #171313;
+	position: absolute;
+	top: 80px;
+	height: 20px;
+	width: 100%;
+}
+h2 {
+	position: absolute;
+	top: -38px;
+	left: 25px;
+	color: white;
+	font: normal normal 40pt AweSomE;
+	z-index: 1;
+}
+span {
+	color: #262626;
+	font-size: 25pt;
+	font-weight: bold;
+}
+p {
+	display: block;
+	background-color: rgb(255,255,255,0.2);
+	padding: 20px;
+	width: 50%;
+	margin: 159px auto 0 auto;
+	box-shadow: 0 0 20px rgb(13,13,13,0.2);
+	color: #333333;
+	font: normal normal 15pt bahnschrift;
+	text-align: justify;
+}
+strong {
+	color: orange;
+}
+.img {
+	display: block;
+	margin: 25px auto 25px auto;
+	border: thick solid rgb(255,255,255,0.5);
+}
+.next {
+	display: block;
+	background-color: #f1f1f1;
+
+	width: 6.8%;
+	margin: 25px auto 10px auto;
+	border-radius: 50%;
+	text-decoration: none;
+	color: #404040;
+	font-size: 40pt;
+	font-weight: bold;
+	text-align: center;
+}
+.next:hover {
+	background-color:#dddddd;
+}
+#footer {
+	background-color: #1a1a1a;
+	padding: 20px 20px;
+	margin-top: 80px;
+	color: white;
+	font-family: bahnschrift;
+	text-align: center;
+}
+python {
+	display: block;
+	background-color: #1a1a1a;
+	padding: 20px 40px;
+	width: 50%;
+	margin: 25px auto 25px auto;
+	border-left: 6px solid #33cc33;
+	color: white;
+	font: normal normal 15pt bahnschrift;
+}
+#x11 button {
+	text-decoration: none;
+	background-color: #f1f1f1;
+	border: none;
+	margin-left: 20px;
+	padding: 20px 25px;
+	border-radius: 50%;
+	font-family: bahnschrift;
+}
+#x11 button:hover {
+	background-color:#dddddd;
+	cursor: pointer;
+}
+center {
+	margin: 25px auto 25px auto;
+}
